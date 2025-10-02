@@ -1,0 +1,14 @@
+# Ignorar setups (eles têm repositórios próprios)
+50_setups/
+
+# Ignorar dados brutos e processados
+01_data/
+*.csv
+*.xlsx
+*.parquet
+
+# Ignorar arquivos temporários
+*.env
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
